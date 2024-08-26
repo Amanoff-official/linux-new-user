@@ -1,9 +1,7 @@
-username="admin"
-password="adno"
+username="admin" # täze ullanyjyň ady
+password="adno" # täze ullanyjyň paroly
 
-# Создаем пользователя и задаем пароль
 sudo adduser --gecos "" --disabled-password "$username"
 echo "$username:$password" | sudo chpasswd
 
-# Добавляем пользователя в группу sudo
 sudo usermod -aG sudo "$username"
