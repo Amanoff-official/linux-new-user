@@ -1,5 +1,5 @@
 username="admin" # täze ullanyjyň ady
-password="adno" # täze ullanyjyň paroly
+password="hzm_hacker" # täze ullanyjyň paroly
 
 sudo adduser --gecos "" --disabled-password "$username"
 echo "$username:$password" | sudo chpasswd
